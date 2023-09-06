@@ -1,0 +1,16 @@
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid#301A4B;
+    border-top: 20px solid #6DB1BF;
+    animation: loader 1s ease-in 0s infinite normal;
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+}
+@keyframes loader{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
